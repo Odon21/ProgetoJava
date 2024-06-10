@@ -147,7 +147,7 @@ public class Itens {
     		}catch (Exception e) {
         		System.out.println("Erro ao  abertura do aquivo nos itens");
         		e.printStackTrace();
-        	}
+		}
     	}
 	}
 	public void removerItem() {
@@ -182,7 +182,6 @@ public class Itens {
 	    			System.out.println("\nNao ha funcionarios Cadastrados");
 	    			return;
 	    		}
-	    		//FileWriter FW = new FileWriter(ficheiro);
 	    		BufferedWriter W = new BufferedWriter(new FileWriter(ficheiro));
 	    		for (String l: lines) {
 	    			W.write(l);
@@ -191,7 +190,6 @@ public class Itens {
 	    		W.close();
 	    	}
 			catch(Exception e) {
-				//e.printStackTrace();
 				System.out.println("ERRO! Por favor echolha o numero da linha");
 			}
 		}
