@@ -1,9 +1,7 @@
 package progeto_semestral;
-
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
-
 public class Informacao {
 	protected String file= ".system_info.dat";
 	protected File FL = new File(file);
@@ -41,7 +39,6 @@ public class Informacao {
 				boolean p = false;
 				System.out.print("\033[1;33m");
 				while((linha = BR.readLine())!=null) {
-					
 					if (linha.trim().equals("-AN_PDA-")) p=false;
 					if (p) {
 						System.out.println("\t"+linha);
@@ -54,12 +51,5 @@ public class Informacao {
 				System.out.println("Erro a ver informacaoes de saudde");
 			}
 		}
-	}
-
-	public void comoCombaterMalaria() {
-		
-	}
-	public void comoCombaterColera() {
-		
 	}
 }
