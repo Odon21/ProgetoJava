@@ -12,5 +12,6 @@ Copia todos od ficheiros e cola no mesmo diretirio e copila.
 * step 5 run
 # java ClassMain
 
-###################################################
-\nSe tiver duvidas contacte-me anonymousmousecybersec@gmail.com
+++
+Se tiver duvidas contacte-me ++
+anonymousmousecybersec@gmail.com
