@@ -1,4 +1,4 @@
-Como execurat os Ficheiros?
+* Como execurat os Ficheiros?
 
 Copia todos od ficheiros e cola no mesmo diretirio e copila.
 # step 1
